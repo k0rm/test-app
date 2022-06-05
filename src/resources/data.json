@@ -1,0 +1,22 @@
+{
+    "Categories": [
+        {
+            "id": 1,
+            "title": "Animals!",
+            "image": "https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg",
+            "description": "Learn about the animals!"  
+        },
+        {
+            "id": 2,
+            "title": "Tools!",
+            "image": "https://www.vigor-equipment.com/media/image/74/e3/4c/v2665-detail-perspektiveMksy39TpAohwT_600x600.jpg",
+            "description": "Learn about different Tools!"
+        },
+        {
+            "id": 3,
+            "title": "Work Machines!",
+            "image": "https://www.vigor-equipment.com/media/image/74/e3/4c/v2665-detail-perspektiveMksy39TpAohwT_600x600.jpg",
+            "description": "Work Machines!"
+        }
+    ]
+}
