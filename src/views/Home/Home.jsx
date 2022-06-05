@@ -11,7 +11,7 @@ const Home = () => {
 
 
     return (
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, backgroundColor: "#edede9" }}>
             <HomeCard 
                 data={data}
             />
