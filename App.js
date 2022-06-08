@@ -26,7 +26,7 @@ const App = () => {
 			<Stack.Screen
 				name="MatchEm"
 				component={MatchEm}
-				// options={{ headerShown: false }}
+				options={{ headerShown: false }}
 			/>
 		</Stack.Navigator>
 	</NavigationContainer>

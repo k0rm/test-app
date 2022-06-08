@@ -1,10 +1,27 @@
-import { View, Text } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import React from 'react';
 
-const MatchCardsContainer = () => {
+import MatchCards from '../MatchCards/MatchCards.jsx';
+
+const MatchCardsContainer = ({ cards }) => {
+    // console.log(cards);
     return (
         <View>
-            <Text></Text>
+            <FlatList
+                numColumns={ 5 }
+                data={ cards }
+                style={{ marginTop: "10%" }}
+                extraData={ cards }
+                renderItem={({ item: { image , aId } }) => {
+                    return (
+                        <MatchCards
+                            image={ image }
+                            id={ aId }
+                        />
+                    )
+                }}
+                keyExtractor={ (cards) => cards.id }
+            />
         </View>
     )
 }
