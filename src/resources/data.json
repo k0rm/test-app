@@ -2,7 +2,7 @@
     "Categories": [
         {
             "id": 1,
-            "title": "Animals!",
+            "title": "Animals",
             "image": "https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg",
             "description": "Learn about the animals!"  
         },
@@ -35,6 +35,12 @@
             "title": "Gargoyles",
             "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7D6D82F406A8FC28A5785B19FAA958A43AB64437C602EBA262E36F9081C91FF/scale?width=1200&aspectRatio=1.78&format=jpeg",
             "description": "Xanatos!"
+        },
+        {
+            "id": 7,
+            "title": "Mankors",
+            "image": "https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg",
+            "description": "I like turtles"
         }
     ]
 }

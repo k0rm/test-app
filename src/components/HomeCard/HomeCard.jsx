@@ -7,7 +7,7 @@ import HC from '../HC/HC.jsx';
 
 const HomeCard = ({ data }) => {
     return (
-        <View style={{ flex: 1, justifyContent: "center", alignItems: "center", marginTop: "7.5%", width: "100%" }}>
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center", marginTop: "7.5%" }}>
             <FlatList
                 numColumns={data.length}
                 style={{ padding: 10}}

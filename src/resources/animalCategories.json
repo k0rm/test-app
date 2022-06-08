@@ -1,0 +1,32 @@
+{
+    "Categories": [
+        {
+            "id": 1,
+            "catId": 1,
+            "title": "Match the Animals",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        },
+        {
+            "id": 2,
+            "catId": 1,
+            "title": "HAMSTERS",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        },        
+        {
+            "id": 3,
+            "catId": 1,
+            "title": "HAMSTERS",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        },
+        {
+            "id": 4,
+            "catId": 1,
+            "title": "HAMSTERS",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        }
+    ]
+}

@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 
 export default styles = StyleSheet.create({
-    categoryCarousel: {
+    rowContainer: {
         flex: 1,
-        flexDirection: "column",
+        flexDirection: "row",
+        width: 500
     }
 })

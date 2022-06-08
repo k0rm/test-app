@@ -5,15 +5,32 @@ import { StyleSheet } from "react-native";
 const Stack = createNativeStackNavigator();
 
 import Home from './src/views/Home/Home';
+import Animals from './src/views/Categories/Animals/Animals';
+import MatchEm from './src/views/AnimalGames/MatchEm/MatchEm';
 
 const App = () => {
-  return (
-	<NavigationContainer style={{ flex: 1 	}}>
-		<Stack.Navigator style={{ flex: 1 }}>
-			<Stack.Screen name="Home" component={Home} />
+
+	return (
+	<NavigationContainer>
+		<Stack.Navigator>
+			<Stack.Screen 
+				name="Home" 
+				component={Home} 
+				options={{ headerShown: false }}	
+			/>
+			<Stack.Screen
+				name="Animals"
+				component={Animals}
+				options={{ headerShown: false }}
+			/>
+			<Stack.Screen
+				name="MatchEm"
+				component={MatchEm}
+				// options={{ headerShown: false }}
+			/>
 		</Stack.Navigator>
-    </NavigationContainer>
-  );
+	</NavigationContainer>
+	);
 }
 
 
