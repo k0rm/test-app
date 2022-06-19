@@ -6,6 +6,7 @@ import { ScrollView } from 'react-native';
 import HC from '../HC/HC.jsx';
 
 const HomeCard = ({ data }) => {
+    console.log(data);
     return (
         <View style={{ flex: 1, justifyContent: "center", alignItems: "center", marginTop: "7.5%" }}>
             <FlatList
@@ -23,7 +24,7 @@ const HomeCard = ({ data }) => {
                       />
                     )
                 }}
-                keyExtractor={(data) => data.id}
+                keyExtractor={data => data.id}
             />
         </View>
     )

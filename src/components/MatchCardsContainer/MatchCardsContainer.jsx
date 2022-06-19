@@ -3,7 +3,7 @@ import React from 'react';
 
 import MatchCards from '../MatchCards/MatchCards.jsx';
 
-const MatchCardsContainer = ({ cards }) => {
+const MatchCardsContainer = ({ cards, flipCard }) => {
     // console.log(cards);
     return (
         <View>
@@ -12,11 +12,15 @@ const MatchCardsContainer = ({ cards }) => {
                 data={ cards }
                 style={{ marginTop: "10%" }}
                 extraData={ cards }
-                renderItem={({ item: { image , aId } }) => {
+                renderItem={({ item: { image, id, aId, matched, flipped } }) => {
                     return (
                         <MatchCards
                             image={ image }
-                            id={ aId }
+                            id={id}
+                            aId={ aId }
+                            matched={matched}
+                            flipped={flipped}
+                            flipCard={flipCard}
                         />
                     )
                 }}

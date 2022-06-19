@@ -1,12 +1,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { StyleSheet } from "react-native";
 
 const Stack = createNativeStackNavigator();
 
 import Home from './src/views/Home/Home';
 import Animals from './src/views/Categories/Animals/Animals';
 import MatchEm from './src/views/AnimalGames/MatchEm/MatchEm';
+  
 
 const App = () => {
 
@@ -26,7 +26,7 @@ const App = () => {
 			<Stack.Screen
 				name="MatchEm"
 				component={MatchEm}
-				options={{ headerShown: false }}
+				// options={{ headerShown: false }}
 			/>
 		</Stack.Navigator>
 	</NavigationContainer>

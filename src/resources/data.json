@@ -42,5 +42,117 @@
             "image": "https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg",
             "description": "I like turtles"
         }
+    ],
+    "AnimalCategories": [
+        {
+            "id": 1,
+            "catId": 1,
+            "title": "Match the Animals",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        },
+        {
+            "id": 2,
+            "catId": 1,
+            "title": "HAMSTERS",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        },        
+        {
+            "id": 3,
+            "catId": 1,
+            "title": "HAMSTERS",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        },
+        {
+            "id": 4,
+            "catId": 1,
+            "title": "HAMSTERS",
+            "image": "https://thumbs.dreamstime.com/b/matching-game-children-find-pattern-animal-match-animals-their-patterns-educational-cute-cartoon-tiger-leopard-owl-180090403.jpg",
+            "route": "MatchEm"
+        }
+    ],
+    "matchEm": [
+        {
+            "id": 1,
+            "aId": 1,
+            "animal": "monkey",
+            "image": "https://media.newyorker.com/photos/59095c501c7a8e33fb38c107/master/pass/Monkey-Selfie-DailyShouts.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 2,
+            "aId": 2,
+            "animal": "fish",
+            "image": "https://i.insider.com/57a4db38dd089551028b465b?width=1136&format=jpeg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 3,
+            "aId": 3,
+            "animal": "bird",
+            "image": "https://www.allaboutbirds.org/guide/assets/photo/306062281-480px.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 4,
+            "aId": 4,
+            "animal": "horse",
+            "image": "https://www.collinsdictionary.com/images/full/horse_84139573.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 5,
+            "aId": 5,
+            "animal": "lion",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1CE8/production/_109100470_ed01bd7f-0c64-4f6b-9d29-f43261119ade.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 6,
+            "aId": 1,
+            "animal": "monkey",
+            "image": "https://media.newyorker.com/photos/59095c501c7a8e33fb38c107/master/pass/Monkey-Selfie-DailyShouts.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 7,
+            "aId": 2,
+            "animal": "fish",
+            "image": "https://i.insider.com/57a4db38dd089551028b465b?width=1136&format=jpeg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 8,
+            "aId": 3,
+            "animal": "bird",
+            "image": "https://www.allaboutbirds.org/guide/assets/photo/306062281-480px.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 9,
+            "aId": 4,
+            "animal": "horse",
+            "image": "https://www.collinsdictionary.com/images/full/horse_84139573.jpg",
+            "matched": false,
+            "flipped": false
+        },
+        {
+            "id": 10,
+            "aId": 5,
+            "animal": "lion",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1CE8/production/_109100470_ed01bd7f-0c64-4f6b-9d29-f43261119ade.jpg",
+            "matched": false,
+            "flipped": false
+        }
     ]
 }
