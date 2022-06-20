@@ -45,7 +45,7 @@ const MatchEm = ({ route, id }) => {
     }
 
     const flipCard = (id) => {
-        if (score === 4) {setVictory(true); setData([]); setData(gameData.matchEm)}
+        if (score === 4) {setVictory(true);}
         let asd = [];
         let idx = [];
         setCounter(counter + 1);

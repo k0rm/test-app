@@ -1,7 +1,6 @@
 import { View, Text } from 'react-native'
 import React, { useEffect, useState } from 'react'
 
-import dataJson from '../../resources/data.json'
 import { db } from '../../../firebase.js';
 import { ref, onValue } from 'firebase/database';
 
@@ -9,7 +8,6 @@ import HomeCard from '../../components/HomeCard/HomeCard'
 import { ScrollView } from 'react-native'
 
 const Home = () => {
-    // let data = dataJson.Categories
     let [data, setData] = useState([]);
 
     useEffect(() => {
